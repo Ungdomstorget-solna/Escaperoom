@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div id="rubrik">
+            <h1>Ravenhill Laboratories, inc</h1><br>
+
+            <p>Du behöver lösa tre koder för att komma åt botemedlet.</p><br>
+        </div>
+
+        <p>Tid kvar:</p>
+        <p id="countDown">60:00</p>
+        
+
+        
+        
+        <section>
+            <div id="div1" class="visibleElement">
+                <h2 id="kodRubrik1">Kod 1</h2>
+                <p id="label1"></p>
+                <span id="spanEnter1">
+                    <input id="textbox1" type="text" placeholder="kod 1"><br>
+                    <button id="enterKnapp1">Enter</button>
+                </span>
+                
+            </div>
+        </section>
+
+        <section>
+            <div id="div2" class="hiddenElement">
+                <p style="font-style: italic;">Ledtråd hänglås: 0 _ _</p><br>
+                <h2 id="kodRubrik2">Kod 2</h2>
+                    <p id="label2"></p>
+                    <span id="spanEnter2">
+                        <input id="textbox2" placeholder="kod 2"><br>
+                         <button id="enterKnapp2">Enter</button>
+                    </span>
+            </div>
+        </section>
+
+        <section>
+            <div id="div3" class="hiddenElement">
+                <p style="font-style: italic;">Ledtråd: Titta i boken.</p><br>
+                <h2 id="kodRubrik3">Kod 3</h2>
+                    <p id="label3"></p>
+                    <span id="spanEnter3">
+                        <input id="textbox3" placeholder="kod 3"><br>
+                         <button id="enterKnapp3">Enter</button>
+                    </span>
+            </div>
+        </section>
+
+        <div id="div4" class="hiddenElement">
+            <p style="font-style: italic;">Nu är du nära! Tryck.</p>
+                <img id="bildKnapp" src="bloodTest.jpg" alt="tryck på mig" style="width: 200px;">
+        </div><br>
+
+        <br><img id="virusImg" src="virus.jpg" alt="The virus"><br>
+
+        <audio id="codeAuthorize" src="codeAuthorize.mp3"></audio>
+        <audio id="codeFail" src="codeFail.mp3"></audio>
+        <audio id="soundShout" src="shout.mp3"></audio>
+
+        <script src="scripts.js"></script>
+    </body>
+</html>

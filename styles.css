@@ -1,0 +1,95 @@
+body {
+    background-color: rgb(49, 49, 49);
+}
+h1 {
+    color: rgb(1, 197, 1);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 200%;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 10%;
+    padding: none;
+    margin: 10px;
+}
+
+h2 {
+    color: rgb(1, 197, 1);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 200%;
+    font-weight: normal;
+    text-align: center;
+    padding: none;
+    margin-bottom: 0px;
+}
+
+label, p {
+    display: block;
+    color: rgb(1, 197, 1);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 100%;
+    font-weight: normal;
+    text-align: center;
+    margin: auto;
+    padding: 1%;
+}
+
+#label1, #label2, #label3, #label4 {
+    font-weight: bold;
+}
+
+img {
+    display: block;
+    max-width: 90%;
+    width: 350px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.visibleElement {
+    display: block;
+}   
+
+.hiddenElement {
+    display: none;
+}
+
+button {
+    display: block;
+    background-color: darkgray;
+    background-image: linear-gradient(darkgray, black); 
+    color: rgb(1, 197, 1);
+    font-size: medium;
+    font-weight: bolder;
+    max-width: 90%;
+    width: 100px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input {
+    display: block;
+    width: auto;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section {
+    width: 90%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div {
+    padding: 0;
+}
+
+#countDown {
+    font-size: x-large;
+    font-weight: bolder;
+}
+
